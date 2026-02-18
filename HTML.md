@@ -8,7 +8,6 @@ HTML stands for **H**yper**t**ext **M**arkup **L**anguage, and it is the most
 Originally, HTML was developed with the intent of defining the structure of documents like headings, paragraphs, lists, and so forth to facilitate the sharing of scientific information between researchers.
 
 Now, HTML is being widely used to format web pages with the help of different tags available in HTML language.
-
 ## Basic HTML Document
 
 In its simplest form, following is an example of an HTML document −
@@ -31,12 +30,9 @@ In its simplest form, following is an example of an HTML document −
 
 ## HTML Tags
 
-As told earlier, HTML is a markup language and makes use of various tags to format the content. These tags are enclosed within angle braces `**<Tag Name>`**. Except few tags, most of the tags have their corresponding closing tags. For example, **`<html>*`* has its closing tag **`</html>**` and **`<body>*`* tag has its closing tag **`</body>**` tag etc.
-
-To learn HTML, you will need to study various tags and understand how they behave, while formatting a textual document. Learning HTML is simple as users have to learn the usage of different tags in order to format the text or images to make a beautiful webpage.
+As told earlier, HTML is a markup language and makes use of various tags to format the content. These tags are enclosed within angle braces `<Tag Name>`. Except few tags, most of the tags have their corresponding closing tags. For example, `<html>` has its closing tag `</html>` and `<body>` tag has its closing tag `</body>` tag etc.
 
 World Wide Web Consortium (W3C) recommends to use lowercase tags starting from HTML 4.
-
 ## HTML Document Structure
 
 A typical HTML document will have the following structure −
@@ -54,25 +50,19 @@ A typical HTML document will have the following structure −
    
 </html>
 ```
+## The `<!DOCTYPE>` Declaration
 
-We will study all the header and body tags in subsequent chapters, but for now let's see what is document declaration tag.
-
-## The <!DOCTYPE> Declaration
-
-The <!DOCTYPE> declaration tag is used by the web browser to understand the version of the HTML used in the document. Current version of HTML is 5 and it makes use of the following declaration −
+The` <!DOCTYPE> `declaration tag is used by the web browser to understand the version of the HTML used in the document. Current version of HTML is 5 and it makes use of the following declaration −
 
 ```
 <!DOCTYPE html>
 ```
 
-There are many other declaration types which can be used in HTML document depending on what version of HTML is being used. We will see more details on this while discussing <!DOCTYPE...> tag along with other HTML tags.
-
+There are many other declaration types which can be used in HTML document depending on what version of HTML is being used. 
 # HTML - Basic Tags
-
 ## Heading Tags
 
 Any document starts with a heading. You can use different sizes for your headings. HTML also has six levels of headings, which use the elements `<h1>, <h2>, <h3>, <h4>, <h5>, and <h6>`. While displaying any heading, browser adds one line before and one line after that heading.
-
 ### Example
 
 ```
@@ -97,8 +87,7 @@ Any document starts with a heading. You can use different sizes for your heading
 
 ## Paragraph Tag
 
-The **<p>** tag offers a way to structure your text into different paragraphs. Each paragraph of text should go in between an opening <p> and a closing </p> tag as shown below in the example −
-
+The `<p>` tag offers a way to structure your text into different paragraphs. Each paragraph of text should go in between an opening `<p>` and a closing `</p>` tag as shown below in the example −
 ### Example
 
 ```
@@ -120,10 +109,9 @@ The **<p>** tag offers a way to structure your text into different paragraphs.
 
 ## Line Break Tag
 
-Whenever you use the **<br />** element, anything following it starts from the next line. This tag is an example of an **empty** element, where you do not need opening and closing tags, as there is nothing to go in between them.
+Whenever you use the `<br />` element, anything following it starts from the next line. This tag is an example of an **empty** element, where you do not need opening and closing tags, as there is nothing to go in between them.
 
-The <br /> tag has a space between the characters **br** and the forward slash. If you omit this space, older browsers will have trouble rendering the line break, while if you miss the forward slash character and just use <br> it is not valid in XHTML.
-
+The `<br />` tag has a space between the characters **br** and the forward slash. If you omit this space, older browsers will have trouble rendering the line break, while if you miss the forward slash character and just use `<br>` it is not valid in XHTML.
 ### Example
 
 ```
@@ -147,7 +135,6 @@ The <br /> tag has a space between the characters **br** and the forward slash
 ## Centering Content
 
 You can use `<center>` tag to put any content in the center of the page or any table cell.
-
 ### Example
 
 ```
@@ -171,10 +158,9 @@ You can use `<center>` tag to put any content in the center of the page or any
 
 ## Horizontal Lines
 
-Horizontal lines are used to visually break-up sections of a document. The **<hr>** tag creates a line from the current position in the document to the right margin and breaks the line accordingly.
+Horizontal lines are used to visually break-up sections of a document. The `<hr>` tag creates a line from the current position in the document to the right margin and breaks the line accordingly.
 
 For example, you may want to give a line between two paragraphs as in the given example below −
-
 ### Example
 
 ```
@@ -194,16 +180,14 @@ For example, you may want to give a line between two paragraphs as in the given 
 </html>
 ```
 
-Again **<hr />** tag is an example of the **empty** element, where you do not need opening and closing tags, as there is nothing to go in between them.
+Again `<hr />` tag is an example of the **empty** element, where you do not need opening and closing tags, as there is nothing to go in between them.
 
-The **<hr />** element has a space between the characters **hr** and the forward slash. If you omit this space, older browsers will have trouble rendering the horizontal line, while if you miss the forward slash character and just use **<hr>** it is not valid in XHTML
-
+The `<hr />` element has a space between the characters **hr** and the forward slash. If you omit this space, older browsers will have trouble rendering the horizontal line, while if you miss the forward slash character and just use `<hr>` it is not valid in XHTML
 ## Preserve Formatting
 
 Sometimes, you want your text to follow the exact format of how it is written in the HTML document. In these cases, you can use the preformatted tag `<pre>`.
 
 Any text between the opening `<pre>` tag and the closing `</pre>` tag will preserve the formatting of the source document.
-
 ### Example
 
 ```
@@ -225,7 +209,7 @@ Any text between the opening `<pre>` tag and the closing `</pre>` tag will p
 </html>
 ```
 
-Try using the same code without keeping it inside **<pre>...</pre>** tags
+Try using the same code without keeping it inside `<pre>...</pre>` tags
 
 ## Nonbreaking Spaces
 
@@ -234,7 +218,6 @@ Suppose you want to use the phrase "12 Angry Men." Here, you would not want a br
 An example of this technique appears in the movie "12 Angry Men."
 
 In cases, where you do not want the client browser to break text, you should use a nonbreaking space entity **&nbsp;** instead of a normal space. For example, when coding the "12 Angry Men" in a paragraph, you should use something similar to the following code −
-
 ### Example
 
 ```
@@ -256,14 +239,14 @@ In cases, where you do not want the client browser to break text, you should use
 
 An **HTML element** is defined by a starting tag. If the element contains other content, it ends with a closing tag, where the element name is preceded by a forward slash as shown below with few tags −
 
-|Start Tag|Content|End Tag|
-|---|---|---|
-|<p>|This is paragraph content.|</p>|
-|<h1>|This is heading content.|</h1>|
-|<div>|This is division content.|</div>|
-|<br />|||
+| Start Tag | Content                    | End Tag  |
+| --------- | -------------------------- | -------- |
+| `<p>`     | This is paragraph content. | `</p>`   |
+| `<h1>`    | This is heading content.   | `</h1>`  |
+| `<div>`   | This is division content.  | `</div>` |
+| `<br />`  |                            |          |
 
-So here **<p>....</p>** is an HTML element, **<h1>...</h1>** is another HTML element. There are some HTML elements which don't need to be closed, such as **<img.../>**, **<hr />** and **<br />** elements. These are known as **void elements**.
+So here `<p>....</p>` is an HTML element, `<h1>...</h1>` is another HTML element. There are some HTML elements which don't need to be closed, such as `<img.../>, <hr /> and <br />` elements. These are known as **void elements**.
 
 HTML documents consists of a tree of these elements and they specify how HTML documents should be built, and what kind of content should be placed in what part of an HTML document.
 
@@ -271,7 +254,7 @@ HTML documents consists of a tree of these elements and they specify how HTML do
 
 An HTML element is defined by a _starting tag_. If the element contains other content, it ends with a _closing tag_.
 
-For example, **<p>** is starting tag of a paragraph and **</p>** is closing tag of the same paragraph but **<p>This is paragraph</p>** is a paragraph element.
+For example, `<p>` is starting tag of a paragraph and **`</p>`** is closing tag of the same paragraph but  `<p>` This is paragraph `</p>` is a paragraph element.
 
 ## Nested HTML Elements
 
@@ -297,17 +280,14 @@ It is very much allowed to keep one HTML element inside another HTML element −
 
 # HTML - Attributes
 
-We have seen few HTML tags and their usage like heading tags `**<h1>, <h2>`,** paragraph tag **`<p>`** and other tags. We used them so far in their simplest form, but most of the HTML tags can also have attributes, which are extra bits of information.
+We have seen few HTML tags and their usage like heading tags `<h1>, <h2>`, paragraph tag **`<p>`** and other tags. We used them so far in their simplest form, but most of the HTML tags can also have attributes, which are extra bits of information.
 
 An attribute is used to define the characteristics of an HTML element and is placed inside the element's opening tag. All attributes are made up of two parts − a **name** and a **value**
 
 - The **name** is the property you want to set. For example, the paragraph **`<p>`** element in the example carries an attribute whose name is **align**, which you can use to indicate the alignment of paragraph on the page.
-    
 - The **value** is what you want the value of the property to be set and always put within quotations. The below example shows three possible values of align attribute: **left, center** and **right**.
-    
 
 Attribute names and attribute values are case-insensitive. However, the World Wide Web Consortium (W3C) recommends lowercase attributes/attribute values in their HTML 4 recommendation.
-
 ### Example
 
 ```
@@ -341,16 +321,14 @@ The four core attributes that can be used on the majority of HTML elements (alth
 The **id** attribute of an HTML tag can be used to uniquely identify any element within an HTML page. There are two primary reasons that you might want to use an id attribute on an element −
 
 - If an element carries an id attribute as a unique identifier, it is possible to identify just that element and its content.
-    
 - If you have two elements of the same name within a Web page (or style sheet), you can use the id attribute to distinguish between elements that have the same name.
-    
-
-We will discuss style sheet in separate tutorial. For now, let's use the id attribute to distinguish between two paragraph elements as shown below.
 
 **Example**
 
+```
 <p id = "html">This para explains what is HTML</p>
 <p id = "css">This para explains what is Cascading Style Sheet</p>
+```
 
 ### The title Attribute
 
@@ -383,7 +361,9 @@ The **class** attribute is used to associate an element with a style sheet, an
 
 The value of the attribute may also be a space-separated list of class names. For example −
 
+```
 class = "className1 className2 className3"
+```
 
 ### The style Attribute
 
@@ -446,7 +426,7 @@ When _dir_ attribute is used within the `<html>` tag, it determines how text w
 
 The **lang** attribute allows you to indicate the main language used in a document, but this attribute was kept in HTML only for backwards compatibility with earlier versions of HTML. This attribute has been replaced by the **xml:lang** attribute in new XHTML documents.
 
-The values of the _lang_ attribute are ISO-639 standard two-character language codes. Check [**HTML Language Codes: ISO 639**](https://www.tutorialspoint.com/html/language_iso_codes.htm) for a complete list of language codes.
+The values of the _lang_ attribute are ISO-639 standard two-character language codes.
 
 **Example**
 
@@ -485,15 +465,13 @@ Here's a table of some other attributes that are readily usable with many of the
 |height|Numeric Value|Specifies the height of tables, images, or table cells.|
 |title|User Defined|"Pop-up" title of the elements.|
 
-We will see related examples as we will proceed to study other HTML tags. For a complete list of HTML Tags and related attributes please check reference to [HTML Tags List](https://www.tutorialspoint.com/html/html_tags_reference.htm).
-
 # HTML - Formatting
 
 If you use a word processor, you must be familiar with the ability to make text bold, italicized, or underlined; these are just three of the ten options available to indicate how text can appear in HTML and XHTML.
 
 ## Bold Text
 
-Anything that appears within **<b>...</b>** element, is displayed in bold as shown below −
+Anything that appears within **`<b>...</b>`** element, is displayed in bold as shown below −
 
 ### Example
 
@@ -514,8 +492,8 @@ Anything that appears within **<b>...</b>** element, is displayed in bold as s
 
 ## Italic Text
 
-Anything that appears within **<i>...</i>** element is displayed in italicized as shown below −
-
+Anything that appears within **`<i>...</i>`** element is displayed in italicized as shown below −
+ 
 ### Example
 
 ```
@@ -535,7 +513,7 @@ Anything that appears within **<i>...</i>** element is displayed in italicized
 
 ## Underlined Text
 
-Anything that appears within **<u>...</u>** element, is displayed with underline as shown below −
+Anything that appears within **`<u>...</u>`** element, is displayed with underline as shown below −
 
 ### Example
 
@@ -555,7 +533,7 @@ Anything that appears within **<u>...</u>** element, is displayed with underli
 ```
 ## Strike Text
 
-Anything that appears within **<strike>...</strike>** element is displayed with strikethrough, which is a thin line through the text as shown below −
+Anything that appears within **`<strike>...</strike>`** element is displayed with strikethrough, which is a thin line through the text as shown below −
 
 ### Example
 
@@ -576,7 +554,7 @@ Anything that appears within **<strike>...</strike>** element is displayed wit
 
 ## Monospaced Font
 
-The content of a **<tt>...</tt>** element is written in monospaced font. Most of the fonts are known as variable-width fonts because different letters are of different widths (for example, the letter 'm' is wider than the letter 'i'). In a monospaced font, however, each letter has the same width.
+The content of a **`<tt>...</tt>`** element is written in monospaced font. Most of the fonts are known as variable-width fonts because different letters are of different widths (for example, the letter 'm' is wider than the letter 'i'). In a monospaced font, however, each letter has the same width.
 
 ### Example
 
@@ -597,7 +575,7 @@ The content of a **<tt>...</tt>** element is written in monospaced font. Most 
 
 ## Superscript Text
 
-The content of a **<sup>...</sup>** element is written in superscript; the font size used is the same size as the characters surrounding it but is displayed half a character's height above the other characters.
+The content of a **`<sup>...</sup>`** element is written in superscript; the font size used is the same size as the characters surrounding it but is displayed half a character's height above the other characters.
 
 ### Example
 
@@ -618,7 +596,7 @@ The content of a **<sup>...</sup>** element is written in superscript; the fon
 
 ## Subscript Text
 
-The content of a **<sub>...</sub>** element is written in subscript; the font size used is the same as the characters surrounding it, but is displayed half a character's height beneath the other characters.
+The content of a **`<sub>...</sub>`** element is written in subscript; the font size used is the same as the characters surrounding it, but is displayed half a character's height beneath the other characters.
 
 ### Example
 
@@ -639,7 +617,7 @@ The content of a **<sub>...</sub>** element is written in subscript; the font 
 
 ## Inserted Text
 
-Anything that appears within **<ins>...</ins>** element is displayed as inserted text.
+Anything that appears within **`<ins>...</ins>`** element is displayed as inserted text.
 
 ### Example
 
@@ -660,7 +638,7 @@ Anything that appears within **<ins>...</ins>** element is displayed as insert
 
 ## Deleted Text
 
-Anything that appears within **<del>...</del>** element, is displayed as deleted text.
+Anything that appears within **`<del>...</del>`** element, is displayed as deleted text.
 
 ### Example
 
@@ -681,7 +659,7 @@ Anything that appears within **<del>...</del>** element, is displayed as delet
 
 ## Larger Text
 
-The content of the **<big>...</big>** element is displayed one font size larger than the rest of the text surrounding it as shown below −
+The content of the **`<big>...</big>`** element is displayed one font size larger than the rest of the text surrounding it as shown below −
 
 ### Example
 
@@ -702,7 +680,7 @@ The content of the **<big>...</big>** element is displayed one font size large
 
 ## Smaller Text
 
-The content of the **<small>...</small>** element is displayed one font size smaller than the rest of the text surrounding it as shown below −
+The content of the **`<small>...</small>`** element is displayed one font size smaller than the rest of the text surrounding it as shown below −
 
 ### Example
 
@@ -781,7 +759,7 @@ The phrase tags have been desicolgned for specific purposes, though they are dis
 
 ## Emphasized Text
 
-Anything that appears within **<em>...</em>** element is displayed as emphasized text.
+Anything that appears within **`<em>...</em>`** element is displayed as emphasized text.
 
 ### Example
 
@@ -802,7 +780,7 @@ Anything that appears within **<em>...</em>** element is displayed as emphasiz
 
 ## Marked Text
 
-Anything that appears with-in **<mark>...</mark>** element, is displayed as marked with yellow ink.
+Anything that appears with-in **`<mark>...</mark>`** element, is displayed as marked with yellow ink.
 
 ### Example
 
@@ -823,7 +801,7 @@ Anything that appears with-in **<mark>...</mark>** element, is displayed as ma
 
 ## Strong Text
 
-Anything that appears within **<strong>...</strong>** element is displayed as important text.
+Anything that appears within **`<strong>...</strong>`** element is displayed as important text.
 
 ### Example
 
@@ -888,7 +866,7 @@ At present, the major browsers do not change the appearance of the content of th
 
 ## Text Direction
 
-The **<bdo>...</bdo>** element stands for Bi-Directional Override and it is used to override the current text direction.
+The **`<bdo>...</bdo>`** element stands for Bi-Directional Override and it is used to override the current text direction.
 
 ### Example
 
@@ -910,7 +888,7 @@ The **<bdo>...</bdo>** element stands for Bi-Directional Override and it is us
 
 ## Special Terms
 
-The **<dfn>...</dfn>** element (or HTML Definition Element) allows you to specify that you are introducing a special term. It's usage is similar to italic words in the midst of a paragraph.
+The **`<dfn>...</dfn>`** element (or HTML Definition Element) allows you to specify that you are introducing a special term. It's usage is similar to italic words in the midst of a paragraph.
 
 Typically, you would use the `<dfn>` element the first time you introduce a key term. Most recent browsers render the content of a `<dfn>` element in an italic font.
 
@@ -933,7 +911,7 @@ Typically, you would use the `<dfn>` element the first time you introduce a key 
 
 ## Quoting Text
 
-When you want to quote a passage from another source, you should put it in between **<blockquote>...</blockquote>** tags.
+When you want to quote a passage from another source, you should put it in between **`<blockquote>...</blockquote>`** tags.
 
 Text inside a `<blockquote>` element is usually indented from the left and right edges of the surrounding text, and sometimes uses an italicized font.
 
@@ -959,7 +937,7 @@ Text inside a `<blockquote>` element is usually indented from the left and right
 
 ## Short Quotations
 
-The **<q>...</q>** element is used when you want to add a double quote within a sentence.
+The **`<q>...</q>`** element is used when you want to add a double quote within a sentence.
 
 ### Example
 
@@ -1003,7 +981,7 @@ As you would expect in a print publication, the content of the `<cite>` element 
 
 ## Computer Code
 
-Any programming code to appear on a Web page should be placed inside **<code>...</code>** tags. Usually the content of the `<code>` element is presented in a monospaced font, just like the code in most programming books.
+Any programming code to appear on a Web page should be placed inside **`<code>...</code>`** tags. Usually the content of the `<code>` element is presented in a monospaced font, just like the code in most programming books.
 
 ### Example
 
@@ -1024,10 +1002,11 @@ Any programming code to appear on a Web page should be placed inside **<code>..
 
 ## Keyboard Text
 
-When you are talking about computers, if you want to tell a reader to enter some text, you can use the **<kbd>...</kbd>** element to indicate what should be typed in, as in this example.
+When you are talking about computers, if you want to tell a reader to enter some text, you can use the **`<kbd>...</kbd>`** element to indicate what should be typed in, as in this example.
 
 ### Example
 
+```
 <!DOCTYPE html>
 <html>
    
@@ -1040,6 +1019,7 @@ When you are talking about computers, if you want to tell a reader to enter some
    </body>
    
 </html>
+```
 
 ## Programming Variables
 
@@ -1064,7 +1044,7 @@ This element is usually used in conjunction with the **`<pre>`** and **`<code
 
 ## Program Output
 
-The **<samp>...</samp>** element indicates sample output from a program, and script etc. Again, it is mainly used when documenting programming or coding concepts.
+The **`<samp>...</samp>`** element indicates sample output from a program, and script etc. Again, it is mainly used when documenting programming or coding concepts.
 
 ### Example
 
@@ -1085,7 +1065,7 @@ The **<samp>...</samp>** element indicates sample output from a program, and s
 
 ## Address Text
 
-The **<address>...</address>** element is used to contain any address.
+The **`<address>...</address>`** element is used to contain any address.
 
 ### Example
 
@@ -1108,24 +1088,24 @@ The **<address>...</address>** element is used to contain any address.
 
 HTML lets you specify metadata - additional important information about a document in a variety of ways. The META elements can be used to include name/value pairs describing properties of the HTML document, such as author, expiry date, a list of keywords, document author etc.
 
-The **<meta>** tag is used to provide such additional information. This tag is an empty element and so does not have a closing tag but it carries information within its attributes.
+The **`<meta>`** tag is used to provide such additional information. This tag is an empty element and so does not have a closing tag but it carries information within its attributes.
 
 You can include one or more meta tags in your document based on what information you want to keep in your document but in general, meta tags do not impact physical appearance of the document so from appearance point of view, it does not matter if you include them or not.
 
 ## Adding Meta Tags to Your Documents
 
-You can add metadata to your web pages by placing <meta> tags inside the header of the document which is represented by **<head>** and **</head>** tags. A meta tag can have following attributes in addition to core attributes −
+You can add metadata to your web pages by placing `<meta>` tags inside the header of the document which is represented by **`<head> and </head>`** tags. A meta tag can have following attributes in addition to core attributes −
 
-|Sr.No|Attribute & Description|
-|---|---|
-|1|**Name**<br><br>Name for the property. Can be anything. Examples include, keywords, description, author, revised, generator etc.|
-|2|**content**<br><br>Specifies the property's value.|
-|3|**scheme**<br><br>Specifies a scheme to interpret the property's value (as declared in the content attribute).|
-|4|**http-equiv**<br><br>Used for http response message headers. For example, http-equiv can be used to refresh the page or to set a cookie. Values include content-type, expires, refresh and set-cookie.|
+| Sr.No | Attribute & Description                                                                                                                                                                                 |
+| ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | **Name**<br><br>Name for the property. Can be anything. Examples include, keywords, description, author, revised, generator etc.                                                                        |
+| 2     | **content**<br><br>Specifies the property's value.                                                                                                                                                      |
+| 3     | **scheme**<br><br>Specifies a scheme to interpret the property's value (as declared in the content attribute).                                                                                          |
+| 4     | **http-equiv**<br><br>Used for http response message headers. For example, http-equiv can be used to refresh the page or to set a cookie. Values include content-type, expires, refresh and set-cookie. |
 
 ## Specifying Keywords
 
-You can use <meta> tag to specify important keywords related to the document and later these keywords are used by the search engines while indexing your webpage for searching purpose.
+You can use `<meta>` tag to specify important keywords related to the document and later these keywords are used by the search engines while indexing your webpage for searching purpose.
 
 ### Example
 
@@ -1149,7 +1129,7 @@ Following is an example, where we are adding HTML, Meta Tags, Metadata as import
 
 ## Document Description
 
-You can use <meta> tag to give a short description about the document. This again can be used by various search engines while indexing your webpage for searching purpose.
+You can use `<meta>` tag to give a short description about the document. This again can be used by various search engines while indexing your webpage for searching purpose.
 
 ### Example
 
@@ -1172,7 +1152,7 @@ You can use <meta> tag to give a short description about the document. This agai
 
 ## Document Revision Date
 
-You can use <meta> tag to give information about when last time the document was updated. This information can be used by various web browsers while refreshing your webpage.
+You can use `<meta>` tag to give information about when last time the document was updated. This information can be used by various web browsers while refreshing your webpage.
 
 ### Example
 
@@ -1196,7 +1176,7 @@ You can use <meta> tag to give information about when last time the document was
 
 ## Document Refreshing
 
-A <meta> tag can be used to specify a duration after which your web page will keep refreshing automatically.
+A `<meta>` tag can be used to specify a duration after which your web page will keep refreshing automatically.
 
 ### Example
 
@@ -1223,7 +1203,7 @@ If you want your page keep refreshing after every 5 seconds then use the followi
 
 ## Page Redirection
 
-You can use <meta> tag to redirect your page to any other webpage. You can also specify a duration if you want to redirect the page after a certain number of seconds.
+You can use `<meta>` tag to redirect your page to any other webpage. You can also specify a duration if you want to redirect the page after a certain number of seconds.
 
 ### Example
 
@@ -1252,7 +1232,7 @@ Following is an example of redirecting current page to another page after 5 seco
 
 Cookies are data, stored in small text files on your computer and it is exchanged between web browser and web server to keep track of various information based on your web application need.
 
-You can use <meta> tag to store cookies on client side and later this information can be used by the Web Server to track a site visitor.
+You can use `<meta>` tag to store cookies on client side and later this information can be used by the Web Server to track a site visitor.
 
 ### Example
 
@@ -1273,8 +1253,6 @@ Following is an example of redirecting current page to another page after 5 seco
 ```
 
 If you do not include the expiration date and time, the cookie is considered a session cookie and will be deleted when the user exits the browser.
-
-**Note** − You can check [PHP and Cookies](https://www.tutorialspoint.com/php/php_cookies.htm) tutorial for a complete detail on Cookies.
 
 ## Setting Author Name
 
@@ -1302,7 +1280,7 @@ You can set an author name in a web page using meta tag. See an example below �
 
 ## Specify Character Set
 
-You can use <meta> tag to specify character set used within the webpage.
+You can use `<meta>` tag to specify character set used within the webpage.
 
 ### Example
 
@@ -1327,7 +1305,7 @@ By default, Web servers and Web browsers use ISO-8859-1 (Latin1) encoding to pro
 </html>
 ```
 
-To serve the static page with traditional Chinese characters, the webpage must contain a <meta> tag to set Big5 encoding −
+To serve the static page with traditional Chinese characters, the webpage must contain a `<meta>` tag to set Big5 encoding −
 
 ```
 <!DOCTYPE html>
@@ -1352,7 +1330,7 @@ To serve the static page with traditional Chinese characters, the webpage must c
 
 Comment is a piece of code which is ignored by any web browser. It is a good practice to add comments into your HTML code, especially in complex documents, to indicate sections of a document, and any other notes to anyone looking at the code. Comments help you and others understand your code and increases code readability.
 
-HTML comments are placed in between **<!-- ... -->** tags. So, any content placed with-in <!-- ... --> tags will be treated as comment and will be completely ignored by the browser.
+HTML comments are placed in between **`<!-- ... -->`** tags. So, any content placed with-in `<!-- ... -->` tags will be treated as comment and will be completely ignored by the browser.
 
 ### Example
 
@@ -1417,7 +1395,7 @@ But, following line is not a valid comment and will be displayed by the browser.
 
 So far we have seen single line comments, but HTML supports multi-line comments as well.
 
-You can comment multiple lines by the special beginning tag <!-- and ending tag --> placed before the first line and end of the last line as shown in the given example below.
+You can comment multiple lines by the special beginning tag `<!-- and ending tag -->` placed before the first line and end of the last line as shown in the given example below.
 
 ### Example
 
@@ -1493,8 +1471,6 @@ There are few browsers that support `<comment>` tag to comment a part of HTML co
 
 ## Commenting Script Code
 
-Though you will learn JavaScript with HTML, in a separate tutorial, but here you must make a note that if you are using Java Script or VB Script in your HTML code then it is recommended to put that script code inside proper HTML comments so that old browsers can work properly.
-
 ### Example
 
 ```
@@ -1519,8 +1495,6 @@ Though you will learn JavaScript with HTML, in a separate tutorial, but here you
 ```
 
 ## Commenting Style Sheets
-
-Though you will learn using style sheets with HTML in a separate tutorial, but here you must make a note that if you are using Cascading Style Sheet (CSS) in your HTML code then it is recommended to put that style sheet code inside proper HTML comments so that old browsers can work properly.
 
 ### Example
 
@@ -1549,7 +1523,7 @@ Though you will learn using style sheets with HTML in a separate tutorial, but h
 
 # HTML - Images
 
-Images are very important to beautify as well as to depict many complex concepts in simple way on your web page. This tutorial will take you through simple steps to use images in your web pages.
+Images are very important to beautify as well as to depict many complex concepts in simple way on your web page.
 
 ## Insert Image
 
@@ -1676,14 +1650,11 @@ By default, image will align at the left side of the page, but you can use **al
 ```
 
 ## Free Web Graphics
-
-For Free Web Graphics including patterns you can look into [Free Web Graphics](https://www.tutorialspoint.com/free_web_graphics.htm)
-
 # HTML - Tables
 
 The HTML tables allow web authors to arrange data like text, images, links, other tables, etc. into rows and columns of cells.
 
-The HTML tables are created using the `**<table>**` tag in which the **`<tr>`** tag is used to create table rows and **`<td>`** tag is used to create data cells. The elements under `<td>` are regular and left aligned by default
+The HTML tables are created using the `<table>` tag in which the **`<tr>`** tag is used to create table rows and **`<td>`** tag is used to create data cells. The elements under `<td>` are regular and left aligned by default
 
 ## Example
 
@@ -1715,9 +1686,7 @@ The HTML tables are created using the `**<table>**` tag in which the **`<tr>`
 Here, the **border** is an attribute of `<table> `tag and it is used to put a border across all the cells. If you do not need a border, then you can use border = "0".
 
 ## Table Heading
-
-Table heading can be defined using `**<th>`** tag. This tag will be put to replace `<td> `tag, which is used to represent actual data cell. Normally you will put your top row as table heading as shown below, otherwise you can use `<th>` element in any row. Headings, which are defined in `<th>` tag are centered and bold by default.
-
+Table heading can be defined using `<th>` tag. This tag will be put to replace `<td> `tag, which is used to represent actual data cell. Normally you will put your top row as table heading as shown below, otherwise you can use `<th>` element in any row. Headings, which are defined in `<th>` tag are centered and bold by default.
 ### Example
 
 ```
@@ -1786,7 +1755,6 @@ There are two attributes called _cellpadding_ and _cellspacing_ which you wi
 ## Colspan and Rowspan Attributes
 
 You will use **colspan** attribute if you want to merge two or more columns into a single column. Similar way you will use **rowspan** if you want to merge two or more rows.
-
 ### Example
 
 ```
@@ -1827,14 +1795,9 @@ You will use **colspan** attribute if you want to merge two or more columns in
 You can set table background using one of the following two ways −
 
 - **bgcolor** attribute − You can set background color for whole table or just for one cell.
-    
 - **background** attribute − You can set background image for whole table or just for one cell.
-    
 
 You can also set border color also using **bordercolor** attribute.
-
-> **Note** − The _bgcolor_, _background_, and _bordercolor_ attributes deprecated in HTML5. Do not use these attributes.
-
 ### Example
 
 ```
@@ -1971,16 +1934,11 @@ The **caption** tag will serve as a title or explanation for the table and it 
 Tables can be divided into three portions − a header, a body, and a foot. The head and foot are rather similar to headers and footers in a word-processed document that remain the same for every page, while the body is the main content holder of the table.
 
 The three elements for separating the head, body, and foot of a table are −
-
-- `**<thead>`** − to create a separate table header.
-    
+- `<thead>` − to create a separate table header.
 - **`<tbody>`** − to indicate the main body of the table.
-    
 - **`<tfoot>`** − to create a separate table footer.
-    
 
-A table may contain several `<tbody>` elements to indicate _different pages_ or groups of data. But it is notable that `<thead> `and `<tfoot> `tags should appear before `<tbody>
-`
+A table may contain several `<tbody>` elements to indicate _different pages_ or groups of data. But it is notable that `<thead> `and `<tfoot> `tags should appear before `<tbody>`
 ### Example
 
 ```
@@ -2068,11 +2026,8 @@ Following is the example of using another table and other tags inside a table ce
 HTML offers web authors three ways for specifying lists of information. All lists must contain one or more list elements. Lists may contain −
 
 - **`<ul>`** − An unordered list. This will list items using plain bullets.
-    
 - **`<ol>`** − An ordered list. This will use different schemes of numbers to list your items.
-    
 - **`<dl>`** − A definition list. This arranges your items in the same way as they are arranged in a dictionary.
-    
 
 ## HTML Unordered Lists
 
@@ -2417,8 +2372,6 @@ A webpage can contain various links that take you directly to other pages and ev
 
 Hyperlinks allow visitors to navigate between Web sites by clicking on words, phrases, and images. Thus you can create hyperlinks using text or images available on a webpage.
 
-**Note** − I recommend you to go through a short tutorial on [Understanding URL](https://www.tutorialspoint.com/html/understanding_url_tutorial.htm)
-
 ## Linking Documents
 
 A link is specified using HTML tag `<a>`. This tag is called **anchor tag** and anything between the opening `<a>` tag and the closing `</a>` tag becomes part of the link and a user can click that part to reach to the linked document. Following is the simple syntax to use `<a>` tag.
@@ -2428,8 +2381,6 @@ A link is specified using HTML tag `<a>`. This tag is called **anchor tag** an
 ```
 
 ### Example
-
-Let's try following example which links https://www.tutorialspoint.com at your page −
 
 ```
 <!DOCTYPE html>
@@ -2451,13 +2402,13 @@ Let's try following example which links https://www.tutorialspoint.com at your p
 
 We have used **target** attribute in our previous example. This attribute is used to specify the location where linked document is opened. Following are the possible options −
 
-|Sr.No|Option & Description|
-|---|---|
-|1|**_blank**<br><br>Opens the linked document in a new window or tab.|
-|2|**_self**<br><br>Opens the linked document in the same frame.|
-|3|**_parent**<br><br>Opens the linked document in the parent frame.|
-|4|**_top**<br><br>Opens the linked document in the full body of the window.|
-|5|**targetframe**<br><br>Opens the linked document in a named _targetframe_.|
+| Sr.No | Option & Description                                                       |
+| ----- | -------------------------------------------------------------------------- |
+| 1     | **_blank**<br><br>Opens the linked document in a new window or tab.        |
+| 2     | **_self**<br><br>Opens the linked document in the same frame.              |
+| 3     | **_parent**<br><br>Opens the linked document in the parent frame.          |
+| 4     | **_top**<br><br>Opens the linked document in the full body of the window.  |
+| 5     | **targetframe**<br><br>Opens the linked document in a named _targetframe_. |
 
 ### Example
 
@@ -2512,8 +2463,6 @@ Following example makes use of `<base>` tag to specify base URL and later we can
 
 You can create a link to a particular section of a given webpage by using **name** attribute. This is a two-step process.
 
-> **Note** − The _name_ attribute deprecated in HTML5. Do not use this attribute. Use _id_ and _title_ attribute instead.
-
 First create a link to the place where you want to reach with-in a webpage and name it using <a...> tag as follows −
 
 ```
@@ -2565,9 +2514,6 @@ while(read(FILE, $buffer, 100)){
    print("$buffer");
 }
 ```
-
-**Note** − For more detail on PERL CGI programs, go through tutorial [PERL and CGI](https://www.tutorialspoint.com/perl/perl_cgi.htm).
-
 # HTML - Image Links
 
 We have seen how to create hypertext link using text and we also learnt how to use images in our webpages. Now, we will learn how to use images to create hyperlinks.
@@ -2603,12 +2549,9 @@ The HTML and XHTML standards provides a feature that lets you embed many differe
 There are two ways to create image maps −
 
 - **Server-side image maps** − This is enabled by the **ismap** attribute of the `<img>` tag and requires access to a server and related image-map processing applications.
-    
 - **Client-side image maps** − This is created with the **usemap** attribute of the `<img>` tag, along with corresponding `<map>` and `<area>` tags.
-    
 
 ## Server-Side Image Maps
-
 Here you simply put your image inside a hyper link and use **ismap** attribute which makes it special image and when the user clicks some place within the image, the browser passes the coordinates of the mouse pointer along with the URL specified in the `<a>` tag to the web server. The server uses the mouse-pointer coordinates to determine which document to deliver back to the browser.
 
 When _ismap_ is used, the href attribute of the containing `<a>` tag must contain the URL of a server application like a cgi or PHP script etc. to process the incoming request based on the passed coordinates.
@@ -2640,12 +2583,11 @@ Which has been generated by the following code snippet −
 
 Then the browser sends the following search parameters to the web server which can be processed by **ismap.cgi** script or **map file** and you can link whatever documents you like to these coordinates −
 
+```
 /cgi-bin/ismap.cgi?20,30
+```
 
-This way you can assign different links to different coordinates of the image and when those coordinates are clicked, you can open corresponding linked document. To learn more about **ismap** attribute, you can check [HTML ismap Attribute](https://www.tutorialspoint.com/html/html_ismap_attribute.htm)
-
-> **Note** − You will learn CGI programming when you will study Perl programming. You can write your script to process these passed coordinates using PHP or any other script as well. For now, let's concentrate on learning HTML and later you can revisit this section.
-
+This way you can assign different links to different coordinates of the image and when those coordinates are clicked, you can open corresponding linked document. 
 ## Client-Side Image Maps
 
 Client side image maps are enabled by the **usemap** attribute of the <img /> tag and defined by special `<map>` and `<area>` extension tags.
@@ -2684,17 +2626,11 @@ The `<area> `tag inside the map tag, specifies the shape and the coordinates to 
 The actual value of coords is totally dependent on the shape in question. Here is a summary, to be followed by detailed examples −
 
 - **rect = x1 , y1 , x2 , y2**
-    
     x1 and y1 are the coordinates of the upper left corner of the rectangle; x2 and y2 are the coordinates of the lower right corner.
-    
 - **circle = xc , yc , radius**
-    
-    xc and yc are the coordinates of the center of the circle, and radius is the circle's radius. A circle centered at 200,50 with a radius of 25 would have the attribute _coords = "200,50,25"_
-    
+	xc and yc are the coordinates of the center of the circle, and radius is the circle's radius. A circle centered at 200,50 with a radius of 25 would have the attribute _coords = "200,50,25"_
 - **poly = x1 , y1 , x2 , y2 , x3 , y3 , ... xn , yn**
-    
     The various x-y pairs define vertices (points) of the polygon, with a "line" being drawn from one point to the next point. A diamond-shaped polygon with its top point at 20,20 and 40 pixels across at its widest points would have the attribute _coords = "20,20,40,40,20,60,0,40"_.
-    
 
 All coordinates are relative to the upper-left corner of the image (0,0). Each shape has a related URL. You can use any image software to know the coordinates of different positions.
 
@@ -2703,39 +2639,6 @@ All coordinates are relative to the upper-left corner of the image (0,0). Each s
 It is not difficult to put an HTML email link on your webpage but it can cause unnecessary spamming problem for your email account. There are people, who can run programs to harvest these types of emails and later use them for spamming in various ways.
 
 You can have another option to facilitate people to send you emails. One option could be to use HTML forms to collect user data and then use PHP or CGI script to send an email.
-
-A simple example, check our [Contact Us](https://www.tutorialspoint.com/about/contact_us.htm) Form. We take user feedback using this form and then we are using one CGI program which is collecting this information and sending us email to the one given email ID.
-
-**Note** − You will learn about HTML Forms in [HTML Forms](https://www.tutorialspoint.com/html/html_forms.htm) and you will learn about CGI in our another tutorial [**Perl CGI Programming**](https://www.tutorialspoint.com/perl/perl_cgi_programming.htm).
-
-## HTML Email Tag
-
-HTML `**<a>`** tag provides you option to specify an email address to send an email. While using `<a>` tag as an email tag, you will use **mailto: email address** along with _href_ attribute. Following is the syntax of using **mailto** instead of using http.
-
-```
-<a href = "mailto: abc@example.com">Send Email</a>
-```
-
-This code will generate the following link which you can use to send email.
-
-[Send Email](mailto:abc@example.com) 
-
-Now, if a user clicks this link, it launches one Email Client (like Lotus Notes, Outlook Express etc. ) installed on your user's computer. There is another risk to use this option to send email because if user do not have email client installed on their computer then it would not be possible to send email.
-
-## Default Settings
-
-You can specify a default _email subject_ and _email body_ along with your email address. Following is the example to use default subject and body.
-
-```
-<a href = "mailto:abc@example.com?subject = Feedback&body = Message">
-Send Feedback
-</a>
-```
-
-This code will generate the following link which you can use to send email.
-
-[Send Feedback](mailto:abc@example.com?subject=Feedback&body=Message)
-
 # HTML - Frames
 
 HTML frames are used to divide your browser window into multiple sections where each section can load a separate HTML document. A collection of frames in the browser window is known as a frameset. The window is divided into frames in a similar way the tables are organized: into rows and columns.
@@ -2745,13 +2648,9 @@ HTML frames are used to divide your browser window into multiple sections where 
 There are few drawbacks with using frames, so it's never recommended to use frames in your webpages −
 
 - Some smaller devices cannot cope with frames often because their screen is not big enough to be divided up.
-    
 - Sometimes your page will be displayed differently on different computers due to different screen resolution.
-    
 - The browser's _back_ button might not work as the user hopes.
-    
 - There are still few browsers that do not support frame technology.
-    
 
 ## Creating Frames
 
@@ -2954,11 +2853,10 @@ Following is the example to show how to use the `<iframe>` −
 Most of the attributes of the `<iframe>` tag, including _name, class, frameborder, id, longdesc, marginheight, marginwidth, name, scrolling, style,_ and _title_ behave exactly like the corresponding attributes for the `<frame>` tag.
 
 > **Note** − The _frameborder_, _marginwidth_, _longdesc_, _scrolling_, _marginheight_ attributes deprecated in HTML5. Do not use these attributes.
-> 
 
 # HTML - Blocks
 
-All the HTML elements can be categorized into two categories **(a)** Block Level Elements **(b)**Inline Elements.
+All the HTML elements can be categorized into two categories **(a)** Block Level Elements **(b)** Inline Elements.
 
 ## Block Elements
 
@@ -3211,46 +3109,24 @@ Colors are very important to give a good look and feel to your website. You can 
 The `<body>` tag has following attributes which can be used to set different colors −
 
 - **bgcolor** − sets a color for the background of the page.
-    
 - **text** − sets a color for the body text.
-    
 - **alink** − sets a color for active links or selected links.
-    
 - **link** − sets a color for linked text.
-    
 - **vlink** − sets a color for _visited links_ − that is, for linked text that you have already clicked on.
-    
 
 ## HTML Color Coding Methods
 
 There are following three different methods to set colors in your web page −
 
 - **Color names** − You can specify color names directly like green, blue or red.
-    
 - **Hex codes** − A six-digit code representing the amount of red, green, and blue that makes up the color.
-    
 - **Color decimal or percentage values** − This value is specified using the rgb( ) property.
-    
 
 Now we will see these coloring schemes one by one.
 
 ## HTML Colors - Color Names
 
 You can specify direct a color name to set text or background color. W3C has listed 16 basic color names that will validate with an HTML validator but there are over 200 different color names supported by major browsers.
-
-**Note** − Check a complete list of [HTML Color Name.](https://www.tutorialspoint.com/html/html_color_names.htm)
-
-## W3C Standard 16 Colors
-
-Here is the list of W3C Standard 16 Colors names and it is recommended to use them.
-
-|   |   |   |   |   |   |   |   |
-|---|---|---|---|---|---|---|---|
-||Black||Gray||Silver||White|
-||Yellow||Lime||Aqua||Fuchsia|
-||Red||Green||Blue||Purple|
-||Maroon||Olive||Navy||Teal|
-
 ### Example
 
 Here are the examples to set background of an HTML tag by color name −
@@ -3285,19 +3161,6 @@ A hexadecimal is a 6 digit representation of a color. The first two digits(RR) r
 A hexadecimal value can be taken from any graphics software like Adobe Photoshop, Paintshop Pro or MS Paint.
 
 Each hexadecimal code will be preceded by a pound or hash sign #. Following is a list of few colors using hexadecimal notation.
-
-|Color|Color HEX|
-|---|---|
-||#000000|
-||#FF0000|
-||#00FF00|
-||#0000FF|
-||#FFFF00|
-||#00FFFF|
-||#FF00FF|
-||#C0C0C0|
-||#FFFFFF|
-
 ### Example
 
 Here are the examples to set background of an HTML tag by color code in hexadecimal −
@@ -3331,20 +3194,6 @@ This color value is specified using the **rgb( )** property. This property tak
 
 > **Note** − All the browsers does not support rgb() property of color so it is recommended not to use it.
 
-Following is a list to show few colors using RGB values.
-
-|Color|Color RGB|
-|---|---|
-||rgb(0,0,0)|
-||rgb(255,0,0)|
-||rgb(0,255,0)|
-||rgb(0,0,255)|
-||rgb(255,255,0)|
-||rgb(0,255,255)|
-||rgb(255,0,255)|
-||rgb(192,192,192)|
-||rgb(255,255,255)|
-
 ### Example
 
 Here are the examples to set background of an HTML tag by color code using rgb() values −
@@ -3376,52 +3225,11 @@ Here are the examples to set background of an HTML tag by color code using rgb()
 
 Here is the list of 216 colors which are supposed to be safest and computer independent colors. These colors very from hexa code 000000 to FFFFFF and they will be supported by all the computers having 256 color palette.
 
-|   |   |   |   |   |   |
-|---|---|---|---|---|---|
-|000000|000033|000066|000099|0000CC|0000FF|
-|003300|003333|003366|003399|0033CC|0033FF|
-|006600|006633|006666|006699|0066CC|0066FF|
-|009900|009933|009966|009999|0099CC|0099FF|
-|00CC00|00CC33|00CC66|00CC99|00CCCC|00CCFF|
-|00FF00|00FF33|00FF66|00FF99|00FFCC|00FFFF|
-|330000|330033|330066|330099|3300CC|3300FF|
-|333300|333333|333366|333399|3333CC|3333FF|
-|336600|336633|336666|336699|3366CC|3366FF|
-|339900|339933|339966|339999|3399CC|3399FF|
-|33CC00|33CC33|33CC66|33CC99|33CCCC|33CCFF|
-|33FF00|33FF33|33FF66|33FF99|33FFCC|33FFFF|
-|660000|660033|660066|660099|6600CC|6600FF|
-|663300|663333|663366|663399|6633CC|6633FF|
-|666600|666633|666666|666699|6666CC|6666FF|
-|669900|669933|669966|669999|6699CC|6699FF|
-|66CC00|66CC33|66CC66|66CC99|66CCCC|66CCFF|
-|66FF00|66FF33|66FF66|66FF99|66FFCC|66FFFF|
-|990000|990033|990066|990099|9900CC|9900FF|
-|993300|993333|993366|993399|9933CC|9933FF|
-|996600|996633|996666|996699|9966CC|9966FF|
-|999900|999933|999966|999999|9999CC|9999FF|
-|99CC00|99CC33|99CC66|99CC99|99CCCC|99CCFF|
-|99FF00|99FF33|99FF66|99FF99|99FFCC|99FFFF|
-|CC0000|CC0033|CC0066|CC0099|CC00CC|CC00FF|
-|CC3300|CC3333|CC3366|CC3399|CC33CC|CC33FF|
-|CC6600|CC6633|CC6666|CC6699|CC66CC|CC66FF|
-|CC9900|CC9933|CC9966|CC9999|CC99CC|CC99FF|
-|CCCC00|CCCC33|CCCC66|CCCC99|CCCCCC|CCCCFF|
-|CCFF00|CCFF33|CCFF66|CCFF99|CCFFCC|CCFFFF|
-|FF0000|FF0033|FF0066|FF0099|FF00CC|FF00FF|
-|FF3300|FF3333|FF3366|FF3399|FF33CC|FF33FF|
-|FF6600|FF6633|FF6666|FF6699|FF66CC|FF66FF|
-|FF9900|FF9933|FF9966|FF9999|FF99CC|FF99FF|
-|FFCC00|FFCC33|FFCC66|FFCC99|FFCCCC|FFCCFF|
-|FFFF00|FFFF33|FFFF66|FFFF99|FFFFCC|FFFFFF|
-
 # HTML - Fonts
 
 Fonts play a very important role in making a website more user friendly and increasing content readability. Font face and color depends entirely on the computer and browser that is being used to view your page but you can use HTML **`<font>`** tag to add style, size, and color to the text on your website. You can use a `<basefont>`** tag to set all of your text to the same size, face, and color.
 
 The font tag is having three attributes called **size, color**, and **face** to customize your fonts. To change any of the font attributes at any time within your webpage, simply use the `<font>` tag. The text that follows will remain changed until you close with the `</font>` tag. You can change one or all of the font attributes within one `<font>` tag.
-
-> **Note** −The _font_ and _basefont_ tags are deprecated and it is supposed to be removed in a future version of HTML. So they should not be used rather, it's suggested to use CSS styles to manipulate your fonts. But still for learning purpose, this chapter will explain font and basefont tags in detail.
 
 ## Set Font Size
 
@@ -3452,7 +3260,7 @@ You can set content font size using **size** attribute. The range of accepted 
 
 ## Relative Font Size
 
-You can specify how many sizes larger or how many sizes smaller than the preset font size should be. You can specify it like `<font size = "&plus;n">** or **<font size = "−n">`
+You can specify how many sizes larger or how many sizes smaller than the preset font size should be. You can specify it like `<font size = "&plus;n"> or <font size = "−n">`
 
 ### Example
 
@@ -3511,13 +3319,9 @@ A visitor will only be able to see your font if they have that font installed on
 
 When your page is loaded, their browser will display the first font face available. If none of the given fonts are installed, then it will display the default font face _Times New Roman_.
 
-**Note** − Check a complete list of [**HTML Standard Fonts**](https://www.tutorialspoint.com/html/html_fonts_reference.htm).
-
 ## Setting Font Color
 
 You can set any font color you like using _color_ attribute. You can specify the color that you want by either the color name or hexadecimal code for that color.
-
-**Note** − You can check a complete list of [**HTML Color Name with Codes**](https://www.tutorialspoint.com/html/html_color_names.htm).
 
 ### Example
 
@@ -3580,7 +3384,7 @@ A form will take input from the site visitor and then will post it to a back-end
 
 There are various form elements available like text fields, textarea fields, drop-down menus, radio buttons, checkboxes, etc.
 
-The HTML `**<form>*`* tag is used to create an HTML form and it has following syntax −
+The HTML `<form>` tag is used to create an HTML form and it has following syntax −
 
 ```
 <form action = "Script URL" method = "GET|POST">
@@ -3599,7 +3403,6 @@ Apart from common attributes, following is a list of the most frequently used fo
 |3|**target**<br><br>Specify the target window or frame where the result of the script will be displayed. It takes values like _blank, _self, _parent etc.|
 |4|**enctype**<br><br>You can use the enctype attribute to specify how the browser encodes the data before it sends it to the server. Possible values are −<br><br>**application/x-www-form-urlencoded** − This is the standard method most forms use in simple scenarios.<br><br>**mutlipart/form-data** − This is used when you want to upload binary data in the form of files like image, word file etc.|
 
-**Note** − You can refer to [Perl & CGI](https://www.tutorialspoint.com/perl/perl_cgi_programming.htm) for a detail on how form data upload works.
 
 ## HTML Form Controls
 
@@ -3619,11 +3422,8 @@ There are different types of form controls that you can use to collect data usin
 There are three types of text input used on forms −
 
 - **Single-line text input controls** − This control is used for items that require only one line of user input, such as search boxes or names. They are created using HTML `**<input>`** tag.
-    
 - **Password input controls** − This is also a single-line text input but it masks the character as soon as a user enters it. They are also created using HTMl `<input>` tag.
-    
-- **Multi-line text input controls** − This is used when the user is required to give details that may be longer than a single sentence. Multi-line input controls are created using HTML `**<textarea>`** tag.
-    
+- **Multi-line text input controls** − This is used when the user is required to give details that may be longer than a single sentence. Multi-line input controls are created using HTML `<textarea>` tag.
 
 ## Single-line text input controls
 
@@ -3863,7 +3663,7 @@ Following is the list of important attributes of `<option>` tag −
 
 ## File Upload Box
 
-If you want to allow a user to upload a file to your web site, you will need to use a file upload box, also known as a file select box. This is also created using the <input> element but type attribute is set to **file**.
+If you want to allow a user to upload a file to your web site, you will need to use a file upload box, also known as a file select box. This is also created using the `<input>` element but type attribute is set to **file**.
 
 ### Example
 
@@ -4009,13 +3809,9 @@ Following is the list of important attributes which can be used with `<embed>` t
 You can use various media types like Flash movies (.swf), AVI's (.avi), and MOV's (.mov) file types inside embed tag.
 
 - **.swf files** − are the file types created by Macromedia's Flash program.
-    
 - **.wmv files** − are Microsoft's Window's Media Video file types.
-    
 - **.mov files** − are Apple's Quick Time Movie format.
-    
 - **.mpeg files** − are movie files created by the Moving Pictures Expert Group.
-    
 
 ```
 <!DOCTYPE html>
@@ -4198,8 +3994,6 @@ Following are few of the important usages of `<meta>` tag inside an HTML documen
 
 The HTML `<base>` tag is used for specifying the base URL for all relative URLs in a page, which means all the other URLs will be concatenated into base URL while locating for the given item.
 
-For example, all the given pages and images will be searched after prefixing the given URLs with base URL https://www.tutorialspoint.com/ directory −
-
 ```
 <!DOCTYPE html>
 <html>
@@ -4217,7 +4011,6 @@ For example, all the given pages and images will be searched after prefixing the
 </html>
 ```
 
-But if you change base URL to something else, for example, if base URL is https://www.tutorialspoint.com/home then image and other given links will become like https://www.tutorialspoint.com/home/images/logo.png and https://www.tutorialspoint.com/html/index.htm
 
 ## The HTML `<link>` Tag
 
@@ -4267,8 +4060,6 @@ The HTML` <style>` tag is used to specify style sheet for the current HTML docum
 </html>
 ```
 
-**Note** − To learn about how Cascading Style Sheet works, kindly check a separate tutorial available at [css](https://www.tutorialspoint.com/css/index.htm)
-
 ## The HTML `<script>` Tag
 
 The HTML `<script>` tag is used to include either external script file or to define internal script for the HTML document. Following is an example where we are using JavaScript to define a simple JavaScript function −
@@ -4295,8 +4086,6 @@ The HTML `<script>` tag is used to include either external script file or to def
 </html>
 ```
 
-**Note** − To learn about how JavaScript works, kindly check a separate tutorial available at [javascript](https://www.tutorialspoint.com/javascript/index.htm)
-
 # HTML - Style Sheet
 
 Cascading Style Sheets (CSS) describe how documents are presented on screens, in print, or perhaps how they are pronounced. W3C has actively promoted the use of style sheets on the Web since the consortium was founded in 1994.
@@ -4306,8 +4095,6 @@ Cascading Style Sheets (CSS) provide easy and effective alternatives to specify 
 ## Example
 
 First let's consider an example of HTML document which makes use of `<font>` tag and associated attributes to specify text color and font size −
-
-> **Note** − The _font_ tag deprecated and it is supposed to be removed in a future version of HTML. So they should not be used rather, it's suggested to use CSS styles to manipulate your fonts. But still for learning purpose, this chapter will work with an example using the font tag.
 
 ```
 <!DOCTYPE html>
@@ -4344,11 +4131,8 @@ We can re-write above example with the help of Style Sheet as follows −
 You can use CSS in three ways in your HTML document −
 
 - **External Style Sheet** − Define style sheet rules in a separate .css file and then include that file in your HTML document using HTML `<link>` tag.
-    
 - **Internal Style Sheet** − Define style sheet rules in header section of the HTML document using `<style> `tag.
-    
 - **Inline Style Sheet** − Define style sheet rules directly along-with the HTML elements using **style** attribute.
-    
 
 Let's see all the three cases one by one with the help of suitable examples.
 
